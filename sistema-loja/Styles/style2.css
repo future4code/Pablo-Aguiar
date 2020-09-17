@@ -1,0 +1,43 @@
+*{
+    margin: 0;    
+    padding: 0;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#titulo {
+    background-color: lightblue;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+#menu {
+    text-align: center;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+#menu a {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+#corpo {
+    background-color: lightblue;
+}
+
+#produtos {
+    background-color: lightblue;
+}
+
+#produtos img {
+    max-width: 80px;
+}
