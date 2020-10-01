@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0
+  }
+
+header {
+    background-color: lightcoral;
+    padding: 15px;    
+    width: 95vw;
+}
+
+
+article {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float:  1 0 auto;    
+    padding: 20px;
+}
+
+article img {
+    width: 20vw;
+    height: 20vw;
+    padding: 5px;
+    object-fit: cover;
+}
+
+footer {
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    background-color: lightcoral;
+    width: 95vw
+}
